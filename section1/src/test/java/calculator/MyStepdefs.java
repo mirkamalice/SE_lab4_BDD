@@ -18,7 +18,9 @@ public class MyStepdefs {
         calculator = new Calculator();
     }
 
-    @Given("^Two input values, (\\d+) and (\\d+)$")
+    // fix problem
+    @Given("^Two input values, (-?\\d+) and (-?\\d+)$")
+
     public void twoInputValuesAnd(int arg0, int arg1) {
         value1 = arg0;
         value2 = arg1;

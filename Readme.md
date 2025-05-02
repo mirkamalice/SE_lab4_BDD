@@ -19,4 +19,12 @@
 @Given("^Two input values, (\\d+) and (\\d+)$")
 ```
 
+<div dir="rtl">
+این مشکل را با تفییر زیر حل می کنیم
+
+</div>
+
+```java
+@Given("^Two input values, (-?\\d+) and (-?\\d+)$")
+```
 
